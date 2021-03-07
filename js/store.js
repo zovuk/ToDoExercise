@@ -96,7 +96,7 @@
     if (todos.find((e) => e.id === Number(newId))) {
       while (todos.find((e) => e.id === Number(newId))) {
         var newId = '';
-        for (var i = 0; i < 6; i++) {
+        for (var i = 0; i < 9; i++) {
           newId += charset.charAt(Math.floor(Math.random() * charset.length));
         }
       }
