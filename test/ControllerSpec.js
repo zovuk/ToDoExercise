@@ -124,27 +124,23 @@ describe('controller', function () {
 
   it('should check the toggle all button, if all todos are completed', function () {
     setUpModel([{ title: 'my todo', completed: true }]);
-
     subject.setView('');
-
     expect(view.render).toHaveBeenCalledWith('toggleAll', {
       checked: true,
     });
   });
 
-  xit('should set the "clear completed" button', function () {
+  it('should set the "clear completed" button', function () {
     var todo = { id: 42, title: 'my todo', completed: true };
     setUpModel([todo]);
-
     subject.setView('');
-
     expect(view.render).toHaveBeenCalledWith('clearCompletedButton', {
       completed: 1,
       visible: true,
     });
   });
 
-  xit('should highlight "All" filter by default', function () {
+  it('should highlight "All" filter by default', function () {
     // TODO: write test
     pending();
   });
