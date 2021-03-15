@@ -84,13 +84,7 @@ todos.unshift(updateData);
 
 &nbsp;
 
-Following line in code is commented cause it was calling file that does not exist. In console was trowing error:
-
-&nbsp;
-
-```
-GET http://127.0.0.1:5500/learn.json 404 (Not Found)
-```
+Following line in code is commented cause it was calling file that does not exist.
 
 &nbsp;
 
@@ -100,11 +94,17 @@ node_modules/todomvc-common/base.js
 248 getFile('learn.json', Learn);
 ```
 
-&nbsp;
+In console was trowing error:
+
+```
+GET http://127.0.0.1:5500/learn.json 404 (Not Found)
+```
 
 &nbsp;
 
-### **5. CHANGE ---------------------- BUG (maybe) (not fixed)**
+&nbsp;
+
+### **5. CHANGE ---------------------- BUG**
 
 ---
 
@@ -183,4 +183,31 @@ Controller.prototype.toggleAll = function (completed) {
   });
   self._filter();
 };
+```
+
+&nbsp;
+
+&nbsp;
+
+### **7. CHANGE ---------------------- BUG**
+
+---
+
+&nbsp;
+
+Toggle All Button was not working. I needed to change position and size in index.css to make it work.
+
+node_modules\todomvc-app-css\index.css
+
+```CSS
+.toggle-all {
+	width: 40px; /* ZORAN - changed */
+	height: 60px; /* ZORAN - changed */
+	border: none; /* Mobile Safari */
+	opacity: 0;
+	position: absolute;
+	top: -60px; /* ZORAN - changed */
+	/* left: -13px; */ /* ZORAN - changed */
+	z-index: 999; /* ZORAN - added */
+}
 ```

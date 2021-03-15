@@ -69,7 +69,6 @@ describe('controller', function () {
     setUpModel(todo);
     subject.setView('');
     expect(model.read).toHaveBeenCalled();
-    expect(model.getCount).toHaveBeenCalled();
     expect(view.render).toHaveBeenCalledWith('showEntries', todo);
   });
 
@@ -142,15 +141,21 @@ describe('controller', function () {
 
   it('should highlight "All" filter by default', function () {
     // TODO: write test
-    pending();
+    var todo = { id: 42, title: 'my todo', completed: true };
+    setUpModel([todo]);
+    subject.setView('');
+    expect(view.render).toHaveBeenCalledWith('setFilter', '');
   });
 
-  xit('should highlight "Active" filter when switching to active view', function () {
+  it('should highlight "Active" filter when switching to active view', function () {
     // TODO: write test
-    pending();
+    var todo = { id: 42, title: 'my todo', completed: false };
+    setUpModel([todo]);
+    subject.setView('#/active');
+    expect(view.render).toHaveBeenCalledWith('setFilter', 'active');
   });
 
-  xdescribe('toggle all', function () {
+  describe('toggle all', function () {
     it('should toggle all todos to completed', function () {
       // TODO: write test
       pending();
