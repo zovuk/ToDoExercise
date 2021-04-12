@@ -187,6 +187,7 @@
     } else if (event === 'toggleAll') {
       $on(self.$toggleAll, 'click', function () {
         handler({ completed: this.checked });
+        console.log(handler);
       });
     } else if (event === 'itemEdit') {
       $delegate(self.$todoList, 'li label', 'dblclick', function () {

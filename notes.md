@@ -5,7 +5,8 @@
 &nbsp;
 
 > “One bug is a simple typo.”
-> .adddItem have to many d`s.
+
+In controller.js .adddItem have to many d`s.
 
 &nbsp;
 
@@ -26,7 +27,8 @@ Controller.prototype.addItem = function...
 &nbsp;
 
 > “One bug involves an introduction of potential conflict between duplicate IDs.”
-> In store.js where is ID generated there was a possibility to generate an ID that already exists. I made the ID bigger and included a loop that checks newly given ID to be unique.
+
+In store.js where is ID generated there was a possibility to generate an ID that already exists. I made the ID bigger and included a loop that checks newly given ID to be unique.
 
 &nbsp;
 
