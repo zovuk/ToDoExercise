@@ -213,3 +213,25 @@ node_modules\todomvc-app-css\index.css
 	z-index: 999; /* ZORAN - added */
 }
 ```
+
+&nbsp;
+
+&nbsp;
+
+### **8. CHANGE ----------------------**
+
+---
+
+&nbsp;
+
+Unnecessary console log entry removed.
+
+controller.js
+
+```JavaScript
+items.forEach(function (item) {
+  if (item.id === id) {
+    console.log('Element with ID: ' + id + ' has been removed.');
+  }
+});
+```
