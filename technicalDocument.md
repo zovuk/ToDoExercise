@@ -60,7 +60,7 @@ Current Date: **2021-04-13**
 
 By simply typing your next task into the box that says "What needs to be done?" and hitting the "Enter" key your new to-do in your <mark>_**todos**_</mark> list will be created.
 
-![Creating new todos list item](resources/Image1.jpg)
+![Creating new todos list item](images/Image1.jpg)
 
 ---
 
@@ -72,7 +72,7 @@ By simply typing your next task into the box that says "What needs to be done?" 
 
 When you hover over the list item an "X" button will show up on the right. Clicking on the button will remove that specific <mark>_**todos**_</mark> task from the list.
 
-![Removing a list item from the list](resources/image0.jpg)
+![Removing a list item from the list](images/image0.jpg)
 
 ---
 
@@ -84,7 +84,7 @@ When you hover over the list item an "X" button will show up on the right. Click
 
 Clicking the button on the left side of the list item will mark that task as completed.
 
-![Marking a task as completed](resources/Image2.jpg)
+![Marking a task as completed](images/Image2.jpg)
 
 ---
 
@@ -98,7 +98,7 @@ Clicking on the "Active" button, only active <mark>_**todos**_</mark> list tasks
 
 In the left bottom corner is a counter that always shows the total count of still active tasks.
 
-![Showing only active tasks](resources/Image3.jpg)
+![Showing only active tasks](images/Image3.jpg)
 
 ---
 
@@ -112,7 +112,7 @@ Clicking on the "Completed" button, only completed <mark>_**todos**_</mark> list
 
 With the "Clear completed" button you can remove all completed tasks with one click.
 
-![Showing only completed tasks](resources/Image4.jpg)
+![Showing only completed tasks](images/Image4.jpg)
 
 ---
 
@@ -124,7 +124,7 @@ With the "Clear completed" button you can remove all completed tasks with one cl
 
 Clicking on the top right button on the left of input box you can toggle all tasks status to completed or to active.
 
-![Toggle all completed/active](resources/Image5.jpg)
+![Toggle all completed/active](images/Image5.jpg)
 
 ---
 

@@ -25,4 +25,4 @@ Performance test detected 28 static resources that are not cached (or have very 
 
 &nbsp;
 
-![Creating new todos list item](resources/screenshot.jpg)
+![Creating new todos list item](images/screenshot.jpg)
