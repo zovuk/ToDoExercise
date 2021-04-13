@@ -1,6 +1,8 @@
-First Contentful Paint - The competitor site is loading slow at the very start where we first see a blank page for some time. Our page loads straight to the list very fast.
+The competitor site is loading slow at the very start where we first see a blank page for some time. Our page loads straight to the list very fast. Slower performance of competitor site is also do to more complex design and content.
 
-The speed index is not so good because visible content needs some time to populate the page.
+Competitor site have more features then our app like saving different lists, adding to-do's for specific dates, sorting of the list, categories, drag and drop and printing option.
+
+The speed index of competitor site is not so good because visible content needs some time to populate the page.
 
 One of the things for future upgrades on which one we need to pay attention is the leverage of the font-display CSS feature to ensure text is user-visible while web fonts are loading. That is one way to avoid a blank page at the beginning of loading and to speed the page to load up.
 
