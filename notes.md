@@ -147,51 +147,7 @@ $on(window, 'load', () => {
 
 &nbsp;
 
-### **6. QUESTION ----------------------**
-
----
-
-&nbsp;
-
-With this one I am little bit confused. For test is said "should check the toggle all button, if all todos are completed" and that should mean if user marks every todo item as completed the toggle all button would be checked, but Controller method .toggleAll read all active todo's and changing their status to completed what actually is action of the button that changes all active todo's to completed.
-
-&nbsp;
-
-ControllerSpec.js
-
-```JavaScript
-it('should check the toggle all button, if all todos are completed', function () {
-  setUpModel([{ title: 'my todo', completed: true }]);
-  subject.setView('');
-  expect(view.render).toHaveBeenCalledWith('toggleAll', {
-    checked: true,
-  });
-});
-```
-
-controller.js
-
-```JavaScript
-/**
-* Will toggle ALL checkboxes' on/off state and completeness of models.
-* Just pass in the event object.
-*/
-Controller.prototype.toggleAll = function (completed) {
-  var self = this;
-  self.model.read({ completed: !completed }, function (data) {
-    data.forEach(function (item) {
-      self.toggleComplete(item.id, completed, true);
-    });
-  });
-  self._filter();
-};
-```
-
-&nbsp;
-
-&nbsp;
-
-### **7. CHANGE ---------------------- BUG**
+### **6. CHANGE ---------------------- BUG**
 
 ---
 
@@ -218,7 +174,7 @@ node_modules\todomvc-app-css\index.css
 
 &nbsp;
 
-### **8. CHANGE ----------------------**
+### **7. CHANGE ---------------------- IMPROVEMENT**
 
 ---
 
