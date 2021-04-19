@@ -34,6 +34,45 @@ Current Date: **2021-04-13**
 
 &nbsp;
 
+### **Software Structure**
+
+&nbsp;
+
+<mark>_**todos**_</mark> is based on [TodoMVC](https://todomvc.com/) application. It is software created in JavaScript, object oriented and simple. Code is writen very clean and structured to have all somponents in its directory.
+
+```
+js/
+├── app.js
+├── controllers.js
+├── model.js
+├── store.js
+├── helpers.js
+├── template.js
+└── view.js
+index.html
+readme.md
+```
+
+&nbsp;
+
+### **Design**
+
+&nbsp;
+
+It is designed with components in mind with app.js as its main component.
+
+Model component deal with stored data, and view.js component with what user see.
+
+Controller takes model and view component and acts as controller between them.
+
+All handlers are in helpers component.
+
+Store component creates database on client side for all todos.
+
+---
+
+&nbsp;
+
 ### **Table of Contents** ⚓
 
 &nbsp;
