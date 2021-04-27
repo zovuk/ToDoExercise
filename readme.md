@@ -183,7 +183,7 @@ Clicking on the top right button on the left of input box you can toggle all tas
 
 **- Question:** Can I make different lists instead of having only one?
 
-    No, sorry, but that feature is planed for next version of the application.
+    No, sorry, but that feature is planned for next version of the application.
 
 ---
 
